@@ -2,12 +2,13 @@
 using System;
 using System.IO;
 using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace ImageGrabber
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
 
             var defaultAddress = @"https://lapkins.ru/cat/";
@@ -34,7 +35,7 @@ namespace ImageGrabber
                 var imageSaver = new ImageSaver();
 
                 var grabber = new ImageGrabberApp(connector, parser, imageSaver);
-                grabber.GrabImagesAsync().Wait();
+                await grabber.GrabImagesAsync();
             }
 
 
