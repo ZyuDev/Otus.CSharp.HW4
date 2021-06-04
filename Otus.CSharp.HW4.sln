@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31229.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageGrabber", "ImageGrabber\ImageGrabber.csproj", "{1CC5FFF4-F35D-4A43-A391-DD9388BB31D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageGrabber.UnitTests", "..\ImageGrabber.UnitTests\ImageGrabber.UnitTests.csproj", "{9C02682D-ACD1-4E5F-A3A5-D8EAF961782C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageGrabber.UnitTests", "ImageGrabber.UnitTests\ImageGrabber.UnitTests.csproj", "{9C02682D-ACD1-4E5F-A3A5-D8EAF961782C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
